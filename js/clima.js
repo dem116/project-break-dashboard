@@ -1,13 +1,11 @@
 //leer documntacion
 // fectch para ver lo que trae con console log
-//crear el espacion en thml y css para mostrarlo (el html con java?)
+//crear el espacion en html y css para mostrarlo (el html con java?)
 
 
 console.log("funciona el linkeo al js")
 
 /*codigo*/
-
-//asycn await no me acuerdo pendiente me sale que la key esta disable
 
 const climaSection = document.getElementById("temperetura")
 
@@ -19,14 +17,14 @@ const climaSection = document.getElementById("temperetura")
 
 const getClima = async () => {
   try {
-    const response = await fetch("https://api.weatherapi.com/v1/current.json?key=<94f949bf553e4947b00202224242207>&q=London")
+    const response = await fetch("https://api.weatherapi.com/v1/current.json?key=94f949bf553e4947b00202224242207&q=London")
     const clima = await response.json()
     //return clima
-    console.log(clima)
+    console.log(clima);
+    console.log(clima.current.temp_c); //--->acceder a temperetura en C por ejemplo. (modos de acceso)
   } catch (err) {
     console.log(err)
   }
-}
+};
 
 getClima();
-
