@@ -44,13 +44,18 @@ table {
 
 /*aqui css*/
 body {
-    background-color: black; /* imagenes si no*/ 
+	margin: 0;
+	padding: 0;
+	height: 100vh; /*--->100% de la altura  la pag*/
+	background-size: cover;
+	background-position: center;
+	transition: background-image 0.5s ease-in-out;
 }
 .clockdate {
  display: flex;
  justify-content: center;
  align-items: center;
- padding-top: 230px;
+ padding-top: 100px;
  padding-right: 50px;
 }
 

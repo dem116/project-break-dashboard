@@ -49,12 +49,20 @@ table {
 
 /*aqui css*/
 
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh; /*--->100% de la altura  la pag*/
+	background-size: cover;
+	background-position: center;
+	transition: background-image 0.5s ease-in-out;
+}
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 200px;
-    /*imagenes o en body?*/ 
+    /*padding-top: 200px;*/
 }
 
 .container {
@@ -63,7 +71,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    border: 6px black solid;
+    border: 4px black solid;
     width: 650px;
     height: 210px;
     overflow: scroll;
