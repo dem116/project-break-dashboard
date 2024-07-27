@@ -3,7 +3,7 @@ function darHora() {
     var hr = today.getHours();
     var min = today.getMinutes();
     var sec = today.getSeconds();
-    //Añadir el 0 en los numeros menos de 10
+    //Añadir el 0 en los numeros menores de 10
     min = checkCero(min);
     sec = checkCero(sec);
     document.getElementById("clock").innerHTML = hr + " : " + min + " : " + sec;

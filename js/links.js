@@ -1,5 +1,3 @@
-//console.log("funciona el enganche al dom");
-
 window.onload = function() {
   if (localStorage) { 
     displayLinks(); 
