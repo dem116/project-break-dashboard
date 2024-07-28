@@ -81,3 +81,29 @@ body {
 .subproject-reloj {
     background-image: none;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(178, 175, 175);
+    width: 300px;
+}
+
+nav a {
+    color: white; 
+    text-shadow: 2px 2px 4px #000000; 
+    text-decoration: none; 
+    font-size: 15px;
+}
+
+nav a:visited {
+    color: white; 
+}
+
+nav a:hover {
+    color: purple; 
+}
+
+nav a:active {
+    color: white; 
+}
