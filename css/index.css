@@ -78,9 +78,6 @@ body {
     justify-content: center;
 }
 
-.subproject-reloj {
-    background-image: none;
-}
 
 nav {
     display: flex;

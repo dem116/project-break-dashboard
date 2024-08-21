@@ -5,6 +5,8 @@ let listaImg = ["./img/bub-graphics-mNPp4u_duhs-unsplash.jpg","./img/fotis-fotop
 "./img/mauro-lima-MCqSjOllMZg-unsplash.jpg", "./img/michael-fousert-lE5-z4nTCTQ-unsplash.jpg",
 "./img/nellie-adamyan-R8JYfe4I58g-unsplash.jpg","./img/tom-podmore-N1ONXKUAiGU-unsplash.jpg",
 "./img/weichao-deng-Qykc-5DcfmU-unsplash.jpg"]
+
+
 function changeBackgroundImage() {
     const randomIndex = Math.floor(Math.random() * listaImg.length);
     const selectedImage = listaImg[randomIndex];
