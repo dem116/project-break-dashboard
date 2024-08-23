@@ -82,7 +82,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(178, 175, 175);
+    background-color: #020f5585;
     width: 300px;
 }
 
@@ -98,7 +98,8 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: purple; 
+    cursor: pointer;
+    color: rgb(105, 169, 242);
 }
 
 nav a:active {
